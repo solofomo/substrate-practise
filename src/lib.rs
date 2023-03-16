@@ -29,16 +29,16 @@ mod tests {
 
     #[test]
     fn test_bubble_sort() {
-        let mut nums = [4, 2, 3, 1, 5];
+        let mut nums = [8, 7, 5, 6, 9];
         bubble_sort(&mut nums);
-        assert_eq!(nums, [1, 2, 3, 4, 5]);
+        assert_eq!(nums, [5, 6, 7, 8, 9]);
     }
     
     #[test]
     fn test_bubble_sort_generic() {
-        let mut nums = [4.5, 2.2, 3.0, 1.1, 5.3];
+        let mut nums = [4.4, 2.2, 3.3, 1.1, 5.5];
         bubble_sort_generic(&mut nums);
-        assert_eq!(nums, [1.1, 2.2, 3.0, 4.5, 5.3]);
+        assert_eq!(nums, [1.1, 2.2, 3.3, 4.4, 5.5]);
 
         let mut strings = ["c", "a", "d", "b"];
         bubble_sort_generic(&mut strings);
