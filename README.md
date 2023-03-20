@@ -2,14 +2,15 @@
 
 [![Rust](https://github.com/solofomo/substrate-practise/actions/workflows/rust.yml/badge.svg?branch=main)](https://github.com/solofomo/substrate-practise/actions/workflows/rust.yml)
 
-使用Rust语言写一个冒泡排序的算法
-- ✅ 基础要求：固定类型（比如i32）的数组排序
-- ✅ 提高部分：能够使用template和PartialOrd实现对任意类型的排序
+
+- ✅ 为枚举交通信号灯实现一个 trait，trait里包含一个返回时间的方法，不同的灯持续的时间不同
+- ✅ 实现一个函数，为u32类型的整数集合求和，参数类型为 &[u32]，返回类型为Option，溢出时返回None
+- ✅ 实现一个打印图形面积的函数，它接收一个可以计算面积的类型作为参数，比如圆形，三角形，正方形，需要用到泛型和泛型约束
 - ✅ 使用cargo run执行
 - ✅ 使用cargo test测试
 
 ### cargo run
-![image](https://user-images.githubusercontent.com/83760488/225518459-f75d61bc-9dc5-430a-9400-1438fa42bf01.png)
+![image](https://user-images.githubusercontent.com/83760488/226287219-e36fcc32-cfc2-4ebf-8c9d-712cc2cfacf8.png)
 
 ### cargo test
-![image](https://user-images.githubusercontent.com/83760488/225557637-31fec9a7-e5b1-46b7-93ad-00b3aeaca450.png)
+![image](https://user-images.githubusercontent.com/83760488/226287362-a34db225-1f10-4e68-b921-111687590442.png)
